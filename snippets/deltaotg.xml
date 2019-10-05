@@ -2,6 +2,7 @@
 <manifest>
 <!-- DeltaOTG forks -->
   <project path="android" name="DeltaOTG/android" />
+  <project path="vendor/lineage" name="DeltaOTG/android_vendor_lineage" />
 <!-- Extra components -->
   <project path="packages/apps/GmsCore" name="microg/android_packages_apps_GmsCore" revision="master" />
 </manifest>
