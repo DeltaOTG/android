@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- DeltaOTG forks -->
+  <project path="android" name="DeltaOTG/android" />
+<!-- Extra components -->
+  <project path="packages/apps/GmsCore" name="microg/android_packages_apps_GmsCore" revision="master" />
+</manifest>
+
