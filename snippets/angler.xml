@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project name="DeltaOTG/android_device_huawei_angler" path="device/huawei/angler" />
+<project name="kimocoder/android_kernel_huawei_angler" path="kernel/huawei/angler" revision="nethunter-8.0" />
+<project name="robbyf/angler-vendor" path="vendor/huawei/angler" revision="mr2" />
+</manifest>
+
