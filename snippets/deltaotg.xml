@@ -2,8 +2,12 @@
 <manifest>
 <!-- DeltaOTG forks -->
   <project path="android" name="DeltaOTG/android" />
-  <project path="vendor/lineage" name="DeltaOTG/android_vendor_deltaotg" />
+  <project path="vendor/deltaotg" name="DeltaOTG/android_vendor_deltaotg" />
   <project path="lineage-sdk" name="DeltaOTG/android_lineage-sdk" />
+  <project path="hardware/deltaotg/interfaces" name="DeltaOTG/android_hardware_deltaotg_interfaces" >
+    <copyfile dest="hardware/deltaotg/Android.bp" src="Android.bp"/>
+  </project>
+    <project path="hardware/qcom/power" name="DeltaOTG/android_hardware_qcom_power" groups="qcom,pdk" />
 <!-- Extra components -->
   <project path="packages/apps/GmsCore" name="microg/android_packages_apps_GmsCore" revision="master" />
 </manifest>
